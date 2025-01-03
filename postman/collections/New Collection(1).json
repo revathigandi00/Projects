@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "7f3f0c70-e6af-48ce-b203-19b55d88cfd4",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "32986371-7f3f0c70-e6af-48ce-b203-19b55d88cfd4"
+	},
+	"item": [
+		{
+			"name": "test",
+			"id": "7ebf60dd-694b-4b86-84e4-9f6344239424",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "tesiung?dd=one",
+					"host": [
+						"tesiung"
+					],
+					"query": [
+						{
+							"key": "dd",
+							"value": "one",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
